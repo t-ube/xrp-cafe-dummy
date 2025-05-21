@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 // app/collection/[vanity]/page.tsx
 import { CollectionPage } from '@/components/CollectionPage';
 import type { Metadata/*, ResolvingMetadata*/ } from 'next';
