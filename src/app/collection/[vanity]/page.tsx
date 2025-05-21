@@ -36,16 +36,16 @@ async function getCollectionData(/*vanity: string*/) {
   // サンプルデータを返します
   return {
     id: 1234,
-    name: "GHOST PATCH",
+    name: "GHOST NFT",
     description: "This collection is not an NFT. It does not exist.",
     image: "/images/0.jpg",
     twitter: "shirome_x",
     verified: true,
-    floor: 10.0,
-    items: 100,
-    totalVolume: "1.1k",
-    holders: 6,
-    percentListed: "16.66%"
+    floor: 12.3,
+    items: 123,
+    totalVolume: "1.2k",
+    holders: 12,
+    percentListed: "12.34%"
   };
 }
 

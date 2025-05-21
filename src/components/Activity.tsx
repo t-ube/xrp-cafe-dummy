@@ -22,7 +22,7 @@ export const Activity: React.FC = () => {
   const activityData: ActivityItem[] = [
     {
       id: "8A72F1B053D9E6C84721D90B3C2E7F15",
-      name: "GHOST PATCH #103",
+      name: "GHOST NFT #103",
       image: "/images/1.jpg",
       price: "75.0 xrp",
       type: "Sale",
@@ -36,7 +36,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "92E5DB46F781C3A590B42D58F16A9C0E",
-      name: "GHOST PATCH #217",
+      name: "GHOST NFT #217",
       image: "/images/2.jpg",
       price: "120.0 xrp",
       type: "Sale",
@@ -50,7 +50,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "61F8A349C72D05BE3807E1D946F2B5C0",
-      name: "GHOST PATCH #42",
+      name: "GHOST NFT #42",
       image: "/images/3.jpg",
       price: "200.0 xrp",
       type: "Sale",
@@ -64,7 +64,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "F3A5E74D18C92B6075E31D0C49A8B2E6",
-      name: "GHOST PATCH #89",
+      name: "GHOST NFT #89",
       image: "/images/4.jpg",
       price: "45.0 xrp",
       type: "Auction",
@@ -78,7 +78,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "D07B3E5A92C1F684E5D91B2730A6FC8D",
-      name: "GHOST PATCH #156",
+      name: "GHOST NFT #156",
       image: "/images/5.jpg",
       price: "85.0 xrp",
       type: "Sale",
@@ -92,7 +92,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "C1B942A8D7E05F391A67D28EC9B840F3",
-      name: "GHOST PATCH #73",
+      name: "GHOST NFT #73",
       image: "/images/6.jpg",
       price: "60.0 xrp",
       type: "Sale",
@@ -106,7 +106,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "7D42F68A1B9C3E5047AD2K8L901P5R3T",
-      name: "GHOST PATCH #128",
+      name: "GHOST NFT #128",
       image: "/images/7.jpg",
       price: "95.0 xrp",
       type: "Sale",
@@ -120,7 +120,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "A9C4E2B7D1F5H6J8K3L0M2N5P7Q1R3S9",
-      name: "GHOST PATCH #196",
+      name: "GHOST NFT #196",
       image: "/images/8.jpg",
       price: "150.0 xrp",
       type: "Auction",
@@ -134,7 +134,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "E4F7G1H5I9J2K6L0M3N7P4Q8R2S6T1U3",
-      name: "GHOST PATCH #37",
+      name: "GHOST NFT #37",
       image: "/images/9.jpg",
       price: "70.0 xrp",
       type: "Sale",
@@ -148,7 +148,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "B3C7D1E5F9G2H6I0J4K8L2M6N0P4Q8R2",
-      name: "GHOST PATCH #241",
+      name: "GHOST NFT #241",
       image: "/images/10.jpg",
       price: "110.0 xrp",
       type: "Sale",
@@ -162,7 +162,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "S5T9U3V7W1X5Y9Z3A7B1C5D9E3F7G1H5",
-      name: "GHOST PATCH #18",
+      name: "GHOST NFT #18",
       image: "/images/11.jpg",
       price: "180.0 xrp",
       type: "Auction",
@@ -176,7 +176,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "I9J3K7L1M5N9P3Q7R1S5T9U3V7W1X5Y9",
-      name: "GHOST PATCH #305",
+      name: "GHOST NFT #305",
       image: "/images/1.jpg",
       price: "65.0 xrp",
       type: "Sale",
@@ -190,7 +190,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "Z3A7B1C5D9E3F7G1H5I9J3K7L1M5N9P3",
-      name: "GHOST PATCH #167",
+      name: "GHOST NFT #167",
       image: "/images/2.jpg",
       price: "125.0 xrp",
       type: "Sale",
@@ -204,7 +204,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "Q7R1S5T9U3V7W1X5Y9Z3A7B1C5D9E3F7",
-      name: "GHOST PATCH #94",
+      name: "GHOST NFT #94",
       image: "/images/3.jpg",
       price: "90.0 xrp",
       type: "Auction",
@@ -218,7 +218,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "G1H5I9J3K7L1M5N9P3Q7R1S5T9U3V7W1",
-      name: "GHOST PATCH #283",
+      name: "GHOST NFT #283",
       image: "/images/4.jpg",
       price: "135.0 xrp",
       type: "Sale",
@@ -232,7 +232,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "X5Y9Z3A7B1C5D9E3F7G1H5I9J3K7L1M5",
-      name: "GHOST PATCH #51",
+      name: "GHOST NFT #51",
       image: "/images/5.jpg",
       price: "80.0 xrp",
       type: "Sale",
@@ -246,7 +246,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "N9P3Q7R1S5T9U3V7W1X5Y9Z3A7B1C5D9",
-      name: "GHOST PATCH #137",
+      name: "GHOST NFT #137",
       image: "/images/6.jpg",
       price: "115.0 xrp",
       type: "Sale",
@@ -260,7 +260,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "E3F7G1H5I9J3K7L1M5N9P3Q7R1S5T9U3",
-      name: "GHOST PATCH #209",
+      name: "GHOST NFT #209",
       image: "/images/7.jpg",
       price: "160.0 xrp",
       type: "Auction",
@@ -274,7 +274,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "V7W1X5Y9Z3A7B1C5D9E3F7G1H5I9J3K7",
-      name: "GHOST PATCH #63",
+      name: "GHOST NFT #63",
       image: "/images/8.jpg",
       price: "55.0 xrp",
       type: "Sale",
@@ -288,7 +288,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "L1M5N9P3Q7R1S5T9U3V7W1X5Y9Z3A7B1",
-      name: "GHOST PATCH #175",
+      name: "GHOST NFT #175",
       image: "/images/9.jpg",
       price: "105.0 xrp",
       type: "Sale",
@@ -302,7 +302,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "C5D9E3F7G1H5I9J3K7L1M5N9P3Q7R1S5",
-      name: "GHOST PATCH #29",
+      name: "GHOST NFT #29",
       image: "/images/10.jpg",
       price: "175.0 xrp",
       type: "Auction",
@@ -316,7 +316,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "T9U3V7W1X5Y9Z3A7B1C5D9E3F7G1H5I9",
-      name: "GHOST PATCH #314",
+      name: "GHOST NFT #314",
       image: "/images/11.jpg",
       price: "140.0 xrp",
       type: "Sale",
@@ -330,7 +330,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "J3K7L1M5N9P3Q7R1S5T9U3V7W1X5Y9Z3",
-      name: "GHOST PATCH #88",
+      name: "GHOST NFT #88",
       image: "/images/1.jpg",
       price: "95.0 xrp",
       type: "Sale",
@@ -344,7 +344,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "A7B1C5D9E3F7G1H5I9J3K7L1M5N9P3Q7",
-      name: "GHOST PATCH #247",
+      name: "GHOST NFT #247",
       image: "/images/2.jpg",
       price: "185.0 xrp",
       type: "Sale",
@@ -358,7 +358,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "R1S5T9U3V7W1X5Y9Z3A7B1C5D9E3F7G1",
-      name: "GHOST PATCH #122",
+      name: "GHOST NFT #122",
       image: "/images/3.jpg",
       price: "130.0 xrp",
       type: "Auction",
@@ -372,7 +372,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "H5I9J3K7L1M5N9P3Q7R1S5T9U3V7W1X5",
-      name: "GHOST PATCH #319",
+      name: "GHOST NFT #319",
       image: "/images/4.jpg",
       price: "70.0 xrp",
       type: "Sale",
@@ -386,7 +386,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "Y9Z3A7B1C5D9E3F7G1H5I9J3K7L1M5N9",
-      name: "GHOST PATCH #78",
+      name: "GHOST NFT #78",
       image: "/images/5.jpg",
       price: "145.0 xrp",
       type: "Sale",
@@ -400,7 +400,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "P3Q7R1S5T9U3V7W1X5Y9Z3A7B1C5D9E3",
-      name: "GHOST PATCH #193",
+      name: "GHOST NFT #193",
       image: "/images/6.jpg",
       price: "100.0 xrp",
       type: "Sale",
@@ -414,7 +414,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "K7L1M5N9P3Q7R1S5T9U3V7W1X5Y9Z3A7",
-      name: "GHOST PATCH #135",
+      name: "GHOST NFT #135",
       image: "/images/7.jpg",
       price: "92.0 xrp",
       type: "Sale",
@@ -428,7 +428,7 @@ export const Activity: React.FC = () => {
     },
     {
       id: "B1C5D9E3F7G1H5I9J3K7L1M5N9P3Q7R1",
-      name: "GHOST PATCH #276",
+      name: "GHOST NFT #276",
       image: "/images/8.jpg",
       price: "155.0 xrp",
       type: "Auction",
@@ -445,7 +445,7 @@ export const Activity: React.FC = () => {
   return (
     <>
       <div className="px-6 py-4">
-        <h3 className="text-xl font-medium text-gray-900">GHOST PATCH Activity</h3>
+        <h3 className="text-xl font-medium text-gray-900">GHOST NFT Activity</h3>
       </div>
 
       <div className="hidden md:grid grid-cols-6 gap-1 px-6 text-sm font-medium text-gray-600 pb-2">
