@@ -30,7 +30,7 @@ export default function Home() {
               />
               <div className="p-4">
                 <h3 className="font-bold text-xl mb-2">GHOST PATCH</h3>
-                <p className="text-gray-700">A haunting collage of spectral fragments stitched together from forgotten stories, ruins, and rituals.</p>
+                <p className="text-gray-700">This collection is not an NFT. It does not exist.</p>
               </div>
             </Link>
           </div>

@@ -37,7 +37,7 @@ async function getCollectionData(/*vanity: string*/) {
   return {
     id: 1234,
     name: "GHOST PATCH",
-    description: "A haunting collage of spectral fragments stitched together from forgotten stories, ruins, and rituals.",
+    description: "This collection is not an NFT. It does not exist.",
     image: "/images/0.jpg",
     twitter: "shirome_x",
     verified: true,
