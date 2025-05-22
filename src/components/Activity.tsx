@@ -21,431 +21,347 @@ export const Activity: React.FC = () => {
   // サンプルデータ
   const activityData: ActivityItem[] = [
     {
-      id: "8A72F1B053D9E6C84721D90B3C2E7F15",
-      name: "GHOST NFT #103",
-      image: "/images/1.jpg",
-      price: "75.0 xrp",
-      type: "Sale",
-      from: {
-        address: "rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh"
+      "id": "TXN001",
+      "name": "OSARU NFT #196",
+      "image": "/images/2.jpg",
+      "price": "134.0 xrp",
+      "type": "Auction",
+      "from": {
+        "address": "rPT1Sjq2YGrBMTttX4GZHjKu9dyfzbpAYe"
       },
-      to: {
-        address: "rDsbeomae4FXwgQTJp9Rs64Qg9vDiTCdBv"
+      "to": {
+        "address": "rLpq5RhuyHA8rvbUq4p1Sconvhy33aUUVK"
       },
-      time: "2 Hours ago"
+      "time": "2025-05-21 23:56:51"
     },
     {
-      id: "92E5DB46F781C3A590B42D58F16A9C0E",
-      name: "GHOST NFT #217",
-      image: "/images/2.jpg",
-      price: "120.0 xrp",
-      type: "Sale",
-      from: {
-        address: "r3kmLJN5D28dHuH8vZNUZpMC43pEHpaocV"
+      "id": "TXN002",
+      "name": "OSARU NFT #089",
+      "image": "/images/6.jpg",
+      "price": "53.0 xrp",
+      "type": "Auction",
+      "from": {
+        "address": "r9NGn4vE9BJ6VLJHm1wMqNj7LRBK7XT5UV"
       },
-      to: {
-        address: "rG1QQv2nh2gr7RCZ1P8YYcBUKCCN633jCn"
+      "to": {
+        "address": "rBPe91ivmsfKbXbWCMeXqCBgU9eFPKRpY"
       },
-      time: "5 Hours ago"
+      "time": "2025-05-21 22:56:51"
     },
     {
-      id: "61F8A349C72D05BE3807E1D946F2B5C0",
-      name: "GHOST NFT #42",
-      image: "/images/3.jpg",
-      price: "200.0 xrp",
-      type: "Sale",
-      from: {
-        address: "r9kiSEUEw6RsqBfXxkMbHhE4BSZXdkFmW5"
+      "id": "TXN003",
+      "name": "OSARU NFT #241",
+      "image": "/images/9.jpg",
+      "price": "162.0 xrp",
+      "type": "Sale",
+      "from": {
+        "address": "rBRVqcXrm1YAbanngTxDfH15LNb6TjNmxk"
       },
-      to: {
-        address: "rLDYrujdKUfVx28T9vRDAbyJ7G2WVXKo4K"
+      "to": {
+        "address": "rE6R3DWF9fBD7CyiQciePF9SqK58Ubp8o2"
       },
-      time: "1 Day ago"
+      "time": "2025-05-21 21:56:51"
     },
     {
-      id: "F3A5E74D18C92B6075E31D0C49A8B2E6",
-      name: "GHOST NFT #89",
-      image: "/images/4.jpg",
-      price: "45.0 xrp",
-      type: "Auction",
-      from: {
-        address: "rBPe91ivmsfKbXbWCMeXqCBgU9eFPKRpY"
+      "id": "TXN004",
+      "name": "OSARU NFT #167",
+      "image": "/images/4.jpg",
+      "price": "60.0 xrp",
+      "type": "Sale",
+      "from": {
+        "address": "rGFuMiw48HdbnrUbkRYuitXTmfrDBNTCnX"
       },
-      to: {
-        address: "rU6K7V3Po4snVhBBaU29sesqs2qTQJWDw1"
+      "to": {
+        "address": "r3ipidkRUZWq8JYVjnzD4FgH9x2c6oee3W"
       },
-      time: "2 Days ago"
+      "time": "2025-05-21 20:56:51"
     },
     {
-      id: "D07B3E5A92C1F684E5D91B2730A6FC8D",
-      name: "GHOST NFT #156",
-      image: "/images/5.jpg",
-      price: "85.0 xrp",
-      type: "Sale",
-      from: {
-        address: "rPT1Sjq2YGrBMTttX4GZHjKu9dyfzbpAYe"
+      "id": "TXN005",
+      "name": "OSARU NFT #305",
+      "image": "/images/11.jpg",
+      "price": "169.0 xrp",
+      "type": "Sale",
+      "from": {
+        "address": "r3ipidkRUZWq8JYVjnzD4FgH9x2c6oee3W"
       },
-      to: {
-        address: "r4UDFE7vhBvJXSQn25rkmKrhRT9D8SXvsy"
+      "to": {
+        "address": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y"
       },
-      time: "3 Days ago"
+      "time": "2025-05-21 19:56:51"
     },
     {
-      id: "C1B942A8D7E05F391A67D28EC9B840F3",
-      name: "GHOST NFT #73",
-      image: "/images/6.jpg",
-      price: "60.0 xrp",
-      type: "Sale",
-      from: {
-        address: "rNPRNzBB92BVpAhhZr4iXDTveCgV5Pofm9"
+      "id": "TXN006",
+      "name": "OSARU NFT #103",
+      "image": "/images/2.jpg",
+      "price": "92.0 xrp",
+      "type": "Sale",
+      "from": {
+        "address": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y"
       },
-      to: {
-        address: "rJb5KsHsDHF1YS5B5DU6QCkH5NsPaKQTcy"
+      "to": {
+        "address": "rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh"
       },
-      time: "3 Days ago"
+      "time": "2025-05-21 18:56:51"
     },
     {
-      id: "7D42F68A1B9C3E5047AD2K8L901P5R3T",
-      name: "GHOST NFT #128",
-      image: "/images/7.jpg",
-      price: "95.0 xrp",
-      type: "Sale",
-      from: {
-        address: "rGFuMiw48HdbnrUbkRYuitXTmfrDBNTCnX"
+      "id": "TXN007",
+      "name": "OSARU NFT #167",
+      "image": "/images/6.jpg",
+      "price": "120.0 xrp",
+      "type": "Sale",
+      "from": {
+        "address": "r9kiSEUEw6RsqBfXxkMbHhE4BSZXdkFmW5"
       },
-      to: {
-        address: "rBJ3YjwXi2MGbg7GVLuTXUWQ8DjL7qXo6a"
+      "to": {
+        "address": "r3ipidkRUZWq8JYVjnzD4FgH9x2c6oee3W"
       },
-      time: "4 Days ago"
+      "time": "2025-05-21 17:56:51"
     },
     {
-      id: "A9C4E2B7D1F5H6J8K3L0M2N5P7Q1R3S9",
-      name: "GHOST NFT #196",
-      image: "/images/8.jpg",
-      price: "150.0 xrp",
-      type: "Auction",
-      from: {
-        address: "rLpq5RhuyHA8rvbUq4p1Sconvhy33aUUVK"
+      "id": "TXN008",
+      "name": "OSARU NFT #156",
+      "image": "/images/4.jpg",
+      "price": "194.0 xrp",
+      "type": "Sale",
+      "from": {
+        "address": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y"
       },
-      to: {
-        address: "rhub8VRN55s94qWKDv6jmDy1pUykJzF3wq"
+      "to": {
+        "address": "rPT1Sjq2YGrBMTttX4GZHjKu9dyfzbpAYe"
       },
-      time: "4 Days ago"
+      "time": "2025-05-21 16:56:51"
     },
     {
-      id: "E4F7G1H5I9J2K6L0M3N7P4Q8R2S6T1U3",
-      name: "GHOST NFT #37",
-      image: "/images/9.jpg",
-      price: "70.0 xrp",
-      type: "Sale",
-      from: {
-        address: "rUkMKjQitpgAM5WTGk79xpjT38DEJY283d"
+      "id": "TXN009",
+      "name": "OSARU NFT #241",
+      "image": "/images/8.jpg",
+      "price": "105.0 xrp",
+      "type": "Sale",
+      "from": {
+        "address": "r9NGn4vE9BJ6VLJHm1wMqNj7LRBK7XT5UV"
       },
-      to: {
-        address: "rPVMhWBsfF9iMXYj3aAzJVkPDTFNSyWdKy"
+      "to": {
+        "address": "rE6R3DWF9fBD7CyiQciePF9SqK58Ubp8o2"
       },
-      time: "5 Days ago"
+      "time": "2025-05-21 15:56:51"
     },
     {
-      id: "B3C7D1E5F9G2H6I0J4K8L2M6N0P4Q8R2",
-      name: "GHOST NFT #241",
-      image: "/images/10.jpg",
-      price: "110.0 xrp",
-      type: "Sale",
-      from: {
-        address: "rE6R3DWF9fBD7CyiQciePF9SqK58Ubp8o2"
+      "id": "TXN010",
+      "name": "OSARU NFT #241",
+      "image": "/images/3.jpg",
+      "price": "98.0 xrp",
+      "type": "Sale",
+      "from": {
+        "address": "r9kiSEUEw6RsqBfXxkMbHhE4BSZXdkFmW5"
       },
-      to: {
-        address: "rMQ98K56yXJbDGv49ZSmW51sLn94Xe1mu1"
+      "to": {
+        "address": "rE6R3DWF9fBD7CyiQciePF9SqK58Ubp8o2"
       },
-      time: "5 Days ago"
+      "time": "2025-05-21 14:56:51"
     },
     {
-      id: "S5T9U3V7W1X5Y9Z3A7B1C5D9E3F7G1H5",
-      name: "GHOST NFT #18",
-      image: "/images/11.jpg",
-      price: "180.0 xrp",
-      type: "Auction",
-      from: {
-        address: "r9NGn4vE9BJ6VLJHm1wMqNj7LRBK7XT5UV"
+      "id": "TXN011",
+      "name": "OSARU NFT #073",
+      "image": "/images/5.jpg",
+      "price": "156.0 xrp",
+      "type": "Sale",
+      "from": {
+        "address": "rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh"
       },
-      to: {
-        address: "r3AWbdp2jQLXLywJypdoNwVSvr81xuaGyc"
+      "to": {
+        "address": "rNPRNzBB92BVpAhhZr4iXDTveCgV5Pofm9"
       },
-      time: "6 Days ago"
+      "time": "2025-05-21 13:56:51"
     },
     {
-      id: "I9J3K7L1M5N9P3Q7R1S5T9U3V7W1X5Y9",
-      name: "GHOST NFT #305",
-      image: "/images/1.jpg",
-      price: "65.0 xrp",
-      type: "Sale",
-      from: {
-        address: "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y"
+      "id": "TXN012",
+      "name": "OSARU NFT #241",
+      "image": "/images/7.jpg",
+      "price": "77.0 xrp",
+      "type": "Sale",
+      "from": {
+        "address": "rBRVqcXrm1YAbanngTxDfH15LNb6TjNmxk"
       },
-      to: {
-        address: "rfNZPxoZ5Uaamdp339U9dCLWz2T73nZJZH"
+      "to": {
+        "address": "rE6R3DWF9fBD7CyiQciePF9SqK58Ubp8o2"
       },
-      time: "6 Days ago"
+      "time": "2025-05-21 12:56:51"
     },
     {
-      id: "Z3A7B1C5D9E3F7G1H5I9J3K7L1M5N9P3",
-      name: "GHOST NFT #167",
-      image: "/images/2.jpg",
-      price: "125.0 xrp",
-      type: "Sale",
-      from: {
-        address: "r3ipidkRUZWq8JYVjnzD4FgH9x2c6oee3W"
+      "id": "TXN013",
+      "name": "OSARU NFT #042",
+      "image": "/images/3.jpg",
+      "price": "113.0 xrp",
+      "type": "Sale",
+      "from": {
+        "address": "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y"
       },
-      to: {
-        address: "rD8LigXE7165r3VWhSQ4FwzJy7PNrTMwUq"
+      "to": {
+        "address": "r9kiSEUEw6RsqBfXxkMbHhE4BSZXdkFmW5"
       },
-      time: "1 Week ago"
+      "time": "2025-05-21 11:56:51"
     },
     {
-      id: "Q7R1S5T9U3V7W1X5Y9Z3A7B1C5D9E3F7",
-      name: "GHOST NFT #94",
-      image: "/images/3.jpg",
-      price: "90.0 xrp",
-      type: "Auction",
-      from: {
-        address: "rPdvC6ccq8hCdPKSPJkPmyZ4Mi1oG2FFkT"
+      "id": "TXN014",
+      "name": "OSARU NFT #156",
+      "image": "/images/7.jpg",
+      "price": "188.0 xrp",
+      "type": "Sale",
+      "from": {
+        "address": "rUkMKjQitpgAM5WTGk79xpjT38DEJY283d"
       },
-      to: {
-        address: "rHr8mDJj9JT6n5xULMVpXYVkJ2YCZyUqCf"
+      "to": {
+        "address": "rPT1Sjq2YGrBMTttX4GZHjKu9dyfzbpAYe"
       },
-      time: "1 Week ago"
+      "time": "2025-05-21 10:56:51"
     },
     {
-      id: "G1H5I9J3K7L1M5N9P3Q7R1S5T9U3V7W1",
-      name: "GHOST NFT #283",
-      image: "/images/4.jpg",
-      price: "135.0 xrp",
-      type: "Sale",
-      from: {
-        address: "rBRVqcXrm1YAbanngTxDfH15LNb6TjNmxk"
+      "id": "TXN015",
+      "name": "OSARU NFT #094",
+      "image": "/images/1.jpg",
+      "price": "135.0 xrp",
+      "type": "Auction",
+      "from": {
+        "address": "rE6R3DWF9fBD7CyiQciePF9SqK58Ubp8o2"
       },
-      to: {
-        address: "rnUy2SHTrB9DubsPmkJZUXTf5FcNDGrYEA"
+      "to": {
+        "address": "rPdvC6ccq8hCdPKSPJkPmyZ4Mi1oG2FFkT"
       },
-      time: "1 Week ago"
+      "time": "2025-05-21 09:56:51"
     },
     {
-      id: "X5Y9Z3A7B1C5D9E3F7G1H5I9J3K7L1M5",
-      name: "GHOST NFT #51",
-      image: "/images/5.jpg",
-      price: "80.0 xrp",
-      type: "Sale",
-      from: {
-        address: "rUQTpMqAF5jhykj4FExVeXakrZpiKF6cQV"
+      "id": "TXN016",
+      "name": "OSARU NFT #217",
+      "image": "/images/11.jpg",
+      "price": "162.0 xrp",
+      "type": "Sale",
+      "from": {
+        "address": "rE6R3DWF9fBD7CyiQciePF9SqK58Ubp8o2"
       },
-      to: {
-        address: "raLPjTYeGezfdb6crXZzcC8RkLBEwbBHJ5"
+      "to": {
+        "address": "r3kmLJN5D28dHuH8vZNUZpMC43pEHpaocV"
       },
-      time: "8 Days ago"
+      "time": "2025-05-21 08:56:51"
     },
     {
-      id: "N9P3Q7R1S5T9U3V7W1X5Y9Z3A7B1C5D9",
-      name: "GHOST NFT #137",
-      image: "/images/6.jpg",
-      price: "115.0 xrp",
-      type: "Sale",
-      from: {
-        address: "rN9qNpgnBaZwqCg8CvUZRPqCcPPY7wfWep"
+      "id": "TXN017",
+      "name": "OSARU NFT #128",
+      "image": "/images/3.jpg",
+      "price": "151.0 xrp",
+      "type": "Sale",
+      "from": {
+        "address": "rBPe91ivmsfKbXbWCMeXqCBgU9eFPKRpY"
       },
-      to: {
-        address: "rBKzJcutFUuER5rRQHZYgN4v79ZaHq3a3V"
+      "to": {
+        "address": "rGFuMiw48HdbnrUbkRYuitXTmfrDBNTCnX"
       },
-      time: "9 Days ago"
+      "time": "2025-05-21 07:56:51"
     },
     {
-      id: "E3F7G1H5I9J3K7L1M5N9P3Q7R1S5T9U3",
-      name: "GHOST NFT #209",
-      image: "/images/7.jpg",
-      price: "160.0 xrp",
-      type: "Auction",
-      from: {
-        address: "rJNL3INmEDYFX3gXnTYnbmV8JxnS2z7xAf"
+      "id": "TXN018",
+      "name": "OSARU NFT #156",
+      "image": "/images/4.jpg",
+      "price": "76.0 xrp",
+      "type": "Sale",
+      "from": {
+        "address": "rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh"
       },
-      to: {
-        address: "rDNkXmLHRZUb7QDoP4sZJoGQTcy9YJMTbA"
+      "to": {
+        "address": "rPT1Sjq2YGrBMTttX4GZHjKu9dyfzbpAYe"
       },
-      time: "10 Days ago"
+      "time": "2025-05-21 06:56:51"
     },
     {
-      id: "V7W1X5Y9Z3A7B1C5D9E3F7G1H5I9J3K7",
-      name: "GHOST NFT #63",
-      image: "/images/8.jpg",
-      price: "55.0 xrp",
-      type: "Sale",
-      from: {
-        address: "rVFuZ3u1xuJ9txvxJyRnFqYV3Wz1vFDJ5"
+      "id": "TXN019",
+      "name": "OSARU NFT #283",
+      "image": "/images/8.jpg",
+      "price": "79.0 xrp",
+      "type": "Sale",
+      "from": {
+        "address": "r3ipidkRUZWq8JYVjnzD4FgH9x2c6oee3W"
       },
-      to: {
-        address: "r3FbKJM2qMH5SgY4BuKsPNT67sZRpJ2xGd"
+      "to": {
+        "address": "rBRVqcXrm1YAbanngTxDfH15LNb6TjNmxk"
       },
-      time: "11 Days ago"
+      "time": "2025-05-21 05:56:51"
     },
     {
-      id: "L1M5N9P3Q7R1S5T9U3V7W1X5Y9Z3A7B1",
-      name: "GHOST NFT #175",
-      image: "/images/9.jpg",
-      price: "105.0 xrp",
-      type: "Sale",
-      from: {
-        address: "rKEJebCKUaV12ZWPyAQdJXbH1BDxUcHFeK"
+      "id": "TXN020",
+      "name": "OSARU NFT #167",
+      "image": "/images/2.jpg",
+      "price": "159.0 xrp",
+      "type": "Sale",
+      "from": {
+        "address": "r3kmLJN5D28dHuH8vZNUZpMC43pEHpaocV"
       },
-      to: {
-        address: "rwietsevLFg3GjybbSgcJRTK6Tv3wMHeKZ"
+      "to": {
+        "address": "r3ipidkRUZWq8JYVjnzD4FgH9x2c6oee3W"
       },
-      time: "12 Days ago"
+      "time": "2025-05-21 04:56:51"
     },
     {
-      id: "C5D9E3F7G1H5I9J3K7L1M5N9P3Q7R1S5",
-      name: "GHOST NFT #29",
-      image: "/images/10.jpg",
-      price: "175.0 xrp",
-      type: "Auction",
-      from: {
-        address: "rhDEnu5YVEv6IZEHxKxQNX5P4iNnkoWJVc"
+      "id": "TXN021",
+      "name": "OSARU NFT #283",
+      "image": "/images/9.jpg",
+      "price": "132.0 xrp",
+      "type": "Sale",
+      "from": {
+        "address": "r3ipidkRUZWq8JYVjnzD4FgH9x2c6oee3W"
       },
-      to: {
-        address: "rJFUKXZdQwqwpfp2GduJHNEnHCQ7LcEdua"
+      "to": {
+        "address": "rBRVqcXrm1YAbanngTxDfH15LNb6TjNmxk"
       },
-      time: "2 Weeks ago"
+      "time": "2025-05-21 03:56:51"
     },
     {
-      id: "T9U3V7W1X5Y9Z3A7B1C5D9E3F7G1H5I9",
-      name: "GHOST NFT #314",
-      image: "/images/11.jpg",
-      price: "140.0 xrp",
-      type: "Sale",
-      from: {
-        address: "rLK8QzN8AAgcJMQ8UVdUPDPbPTgep2frpi"
+      "id": "TXN022",
+      "name": "OSARU NFT #103",
+      "image": "/images/4.jpg",
+      "price": "83.0 xrp",
+      "type": "Sale",
+      "from": {
+        "address": "rBRVqcXrm1YAbanngTxDfH15LNb6TjNmxk"
       },
-      to: {
-        address: "r4QYxjtbH5PCxZNKXzFGe8bmCJpB9QQtUw"
+      "to": {
+        "address": "rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh"
       },
-      time: "2 Weeks ago"
+      "time": "2025-05-21 02:56:51"
     },
     {
-      id: "J3K7L1M5N9P3Q7R1S5T9U3V7W1X5Y9Z3",
-      name: "GHOST NFT #88",
-      image: "/images/1.jpg",
-      price: "95.0 xrp",
-      type: "Sale",
-      from: {
-        address: "rUTEn2jLLv4ESmrUqQmEPpUa1CrGTqnGEH"
+      "id": "TXN023",
+      "name": "OSARU NFT #094",
+      "image": "/images/6.jpg",
+      "price": "52.0 xrp",
+      "type": "Auction",
+      "from": {
+        "address": "r3kmLJN5D28dHuH8vZNUZpMC43pEHpaocV"
       },
-      to: {
-        address: "rwtDvu9QDfMJVo1JNXbNX9MUPJPa69mNJB"
+      "to": {
+        "address": "rPdvC6ccq8hCdPKSPJkPmyZ4Mi1oG2FFkT"
       },
-      time: "2 Weeks ago"
+      "time": "2025-05-21 01:56:51"
     },
     {
-      id: "A7B1C5D9E3F7G1H5I9J3K7L1M5N9P3Q7",
-      name: "GHOST NFT #247",
-      image: "/images/2.jpg",
-      price: "185.0 xrp",
-      type: "Sale",
-      from: {
-        address: "rsiLTzeDFSzM3kTLbvDoWGEk9RYi3Vcwx"
+      "id": "TXN024",
+      "name": "OSARU NFT #128",
+      "image": "/images/6.jpg",
+      "price": "163.0 xrp",
+      "type": "Sale",
+      "from": {
+        "address": "rBRVqcXrm1YAbanngTxDfH15LNb6TjNmxk"
       },
-      to: {
-        address: "rU3sAqEipZRYhJXPKGt9nQYTAEJaJJbTVU"
+      "to": {
+        "address": "rGFuMiw48HdbnrUbkRYuitXTmfrDBNTCnX"
       },
-      time: "2 Weeks ago"
-    },
-    {
-      id: "R1S5T9U3V7W1X5Y9Z3A7B1C5D9E3F7G1",
-      name: "GHOST NFT #122",
-      image: "/images/3.jpg",
-      price: "130.0 xrp",
-      type: "Auction",
-      from: {
-        address: "rNozJrYqDWjwMtjXZFUnP9TZmVVUzaV6tZ"
-      },
-      to: {
-        address: "rQGLkXLYnCBYcuG5uLhEqFEPVtVJjnBSVf"
-      },
-      time: "3 Weeks ago"
-    },
-    {
-      id: "H5I9J3K7L1M5N9P3Q7R1S5T9U3V7W1X5",
-      name: "GHOST NFT #319",
-      image: "/images/4.jpg",
-      price: "70.0 xrp",
-      type: "Sale",
-      from: {
-        address: "rEQB9yqRJ54oj4iBYBozECXAf4oKzWDvs2"
-      },
-      to: {
-        address: "rKZEBzWNXnYVdKxGiDMYGGq1Azd8VL9F7M"
-      },
-      time: "3 Weeks ago"
-    },
-    {
-      id: "Y9Z3A7B1C5D9E3F7G1H5I9J3K7L1M5N9",
-      name: "GHOST NFT #78",
-      image: "/images/5.jpg",
-      price: "145.0 xrp",
-      type: "Sale",
-      from: {
-        address: "rVxmBQHweK8mYkCn7SzFyhMJubp3UBJtU"
-      },
-      to: {
-        address: "rPiF8rcT6oZtJPHTkbFLnUiQvfymKy9Y9S"
-      },
-      time: "3 Weeks ago"
-    },
-    {
-      id: "P3Q7R1S5T9U3V7W1X5Y9Z3A7B1C5D9E3",
-      name: "GHOST NFT #193",
-      image: "/images/6.jpg",
-      price: "100.0 xrp",
-      type: "Sale",
-      from: {
-        address: "rshgG4xENPPvPwcUUhDTY5c4MFxt8BAZoH"
-      },
-      to: {
-        address: "r3i4RNxmyyKnuk5mYJcjZ1TsmrqnQUjgQE"
-      },
-      time: "4 Weeks ago"
-    },
-    {
-      id: "K7L1M5N9P3Q7R1S5T9U3V7W1X5Y9Z3A7",
-      name: "GHOST NFT #135",
-      image: "/images/7.jpg",
-      price: "92.0 xrp",
-      type: "Sale",
-      from: {
-        address: "rD9iJmieYiKfyfF6VzpDPrXVfZV9mVBqsX"
-      },
-      to: {
-        address: "rfUV3egGqYkAScjRATrQ8AoQfJkTm8NFns"
-      },
-      time: "1 Month ago"
-    },
-    {
-      id: "B1C5D9E3F7G1H5I9J3K7L1M5N9P3Q7R1",
-      name: "GHOST NFT #276",
-      image: "/images/8.jpg",
-      price: "155.0 xrp",
-      type: "Auction",
-      from: {
-        address: "rNbQwDwPLVwMXsVqNGV7yucYoiE4SFJCtm"
-      },
-      to: {
-        address: "rER6ZiBPDb8XJmVYDtZF1nZJvwSNRwN3L2"
-      },
-      time: "1 Month ago"
+      "time": "2025-05-21 00:56:51"
     }
   ];
 
   return (
     <>
       <div className="px-6 py-4">
-        <h3 className="text-xl font-medium text-gray-900">GHOST NFT Activity</h3>
+        <h3 className="text-xl font-medium text-gray-900">OSARU NFT Activity</h3>
       </div>
 
       <div className="hidden md:grid grid-cols-6 gap-1 px-6 text-sm font-medium text-gray-600 pb-2">

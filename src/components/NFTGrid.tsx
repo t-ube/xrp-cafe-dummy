@@ -13,28 +13,28 @@ export const NFTGrid: React.FC<NFTGridProps> = (/*{ collectionId }*/) => {
   const sampleNFTs = [
     {
       id: "00082710D66F170849D02E1C6EE26DB6662D87190B9B0C57852D5BDD057D7042",
-      name: "GHOST NFT #351",
+      name: "OSARU NFT #351",
       image: "/images/1.jpg",
       price: "50.0 xrp",
       isLocal: true
     },
     {
       id: "00082710D66F170849D02E1C6EE26DB6662D87190B9B0C57AFDC6EB1057D6F16",
-      name: "GHOST NFT #52",
+      name: "OSARU NFT #52",
       image: "/images/2.jpg",
       price: "99.0 xrp",
       isLocal: false
     },
     {
       id: "00082710D66F170849D02E1C6EE26DB6662D87190B9B0C57257612E4057D7049",
-      name: "GHOST NFT #359",
+      name: "OSARU NFT #359",
       image: "/images/3.jpg",
       price: "50.0 xrp",
       isLocal: false
     },
     {
       id: "00082710D66F170849D02E1C6EE26DB6662D87190B9B0C570E9041E3057D7048",
-      name: "GHOST NFT #358",
+      name: "OSARU NFT #358",
       image: "/images/4.jpg",
       price: "20.0 xrp",
       isLocal: false

@@ -25,11 +25,11 @@ export default function Home() {
             <Link href="/collection/saru" className="block bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
               <img 
                 src="/images/0.jpg" 
-                alt="GHOST NFT" 
+                alt="OSARU NFT" 
                 className="w-full h-48 object-cover"
               />
               <div className="p-4">
-                <h3 className="font-bold text-xl mb-2">GHOST NFT</h3>
+                <h3 className="font-bold text-xl mb-2">OSARU NFT</h3>
                 <p className="text-gray-700">This collection is not an NFT. It does not exist.</p>
               </div>
             </Link>

@@ -36,7 +36,7 @@ async function getCollectionData(/*vanity: string*/) {
   // サンプルデータを返します
   return {
     id: 1234,
-    name: "GHOST NFT",
+    name: "OSARU NFT",
     description: "This collection is not an NFT. It does not exist.",
     image: "/images/0.jpg",
     twitter: "shirome_x",
